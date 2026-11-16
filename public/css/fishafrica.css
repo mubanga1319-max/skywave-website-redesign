@@ -147,6 +147,12 @@ header {
     height: 100%;
 }
 
+/* White mark over the dark hero, colour mark once the header turns solid */
+.logo .logo-white { display: none; }
+
+header.transparent .logo-dark { display: none; }
+header.transparent .logo-white { display: block; }
+
 header.transparent { 
     background: transparent; 
     color: white; 

@@ -39,7 +39,8 @@
     <!-- Navbar -->
     <header class="transparent" id="navbar">
       <div class="logo">
-        <img src="public/images/logo/skywave-tech-logo.webp" alt="Skywave Technologies">
+        <img class="logo-dark" src="public/images/logo/skywave-tech-logo.webp" alt="Skywave Technologies">
+        <img class="logo-white" src="public/images/logo/skywave-logo-white.png" alt="Skywave Technologies">
       </div>
       <nav id="navMenu">
         <a href="index">Home</a>
