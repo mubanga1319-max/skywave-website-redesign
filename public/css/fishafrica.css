@@ -655,6 +655,16 @@ footer {
     color: #6b7280; 
     font-size: 14px; 
 } 
+.footer-right a {
+    display: block;
+    color: #3d4652;
+    font-weight: 500;
+    text-decoration: none;
+}
+.footer-right a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
 
 /* ANIMATIONS */
 @keyframes fadeInUp { 

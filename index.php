@@ -48,7 +48,6 @@
         <a href="index#why">Why Us</a>
         <a href="https://www.skywavetech.cloud/blog/our-blog-1">Resources</a>
         <a href="fishafrica">Fish Africa</a>
-        <a href="https://www.skywavetech.cloud/" class="contact-btn">Contact</a>
         </nav>
         <button class="hamburger" id="menuBtn">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -389,6 +388,55 @@
       </div>
     </section>
 
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="section-head">
+        <h2>Get in Touch</h2>
+        <p class="contact-intro">
+          Have a question or a project in mind? Reach us through any of the channels below —
+          we reply to every enquiry.
+        </p>
+      </div>
+
+      <div class="contact-grid contact-grid-phones">
+        <div class="contact-card">
+          <span class="contact-label">Call us</span>
+          <a href="tel:+260971260061">+260 971 260 061</a>
+        </div>
+
+        <div class="contact-card">
+          <span class="contact-label">WhatsApp</span>
+          <a href="https://wa.me/260765651728" target="_blank" rel="noopener">+260 765 651 728</a>
+        </div>
+      </div>
+
+      <div class="contact-grid contact-grid-emails">
+        <div class="contact-card">
+          <span class="contact-label">Helpdesk</span>
+          <a href="mailto:helpdesk@skywavetech.co.zm">helpdesk@skywavetech.co.zm</a>
+        </div>
+
+        <div class="contact-card">
+          <span class="contact-label">Support</span>
+          <a href="mailto:support@skywavetech.co.zm">support@skywavetech.co.zm</a>
+        </div>
+
+        <div class="contact-card">
+          <span class="contact-label">Sales</span>
+          <a href="mailto:sales@skywavetech.co.zm">sales@skywavetech.co.zm</a>
+        </div>
+      </div>
+
+      <div class="contact-actions">
+        <a class="btn primary contact-chat" href="https://www.skywavetech.cloud/" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.86 9.86 0 0 1-4-.8L3 21l1.8-5A7.5 7.5 0 0 1 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8Z"/>
+          </svg>
+          Chat with Us
+        </a>
+      </div>
+    </section>
+
     <!-- FOOTER -->
     <footer>
       <div class="footer-grid">
@@ -401,7 +449,7 @@
           <a href="fishafrica">Fish Africa</a>
         </div>
         <div class="footer-right">
-          <div>Contact Us</div>
+          <a href="#contact">Contact Us</a>
           <div>Privacy Policy</div>
         </div>
       </div>

@@ -691,6 +691,83 @@ nav a.section-active::after {
   transform: translateY(0);
 }
 
+/* CONTACT */
+#contact {
+  background: var(--light-bg);
+  scroll-margin-top: 90px;
+}
+
+.contact-intro {
+  color: var(--muted);
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-grid + .contact-grid {
+  margin-top: 20px;
+}
+
+.contact-grid-emails {
+  margin-bottom: 30px;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px 24px;
+  min-width: 0;
+}
+
+.contact-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.contact-card a {
+  color: var(--dark-blue);
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  transition: color 0.2s ease;
+}
+
+.contact-card a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.contact-actions {
+  text-align: center;
+}
+
+.contact-chat {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.contact-chat svg {
+  flex-shrink: 0;
+}
+
 /* FOOTER */
 footer {
   background: white;
@@ -724,6 +801,18 @@ footer {
 .footer-right {
   color: #6b7280;
   font-size: 14px;
+}
+
+.footer-right a {
+  display: block;
+  color: #3d4652;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  color: var(--blue);
+  text-decoration: underline;
 }
 
 /* RESPONSIVE ADJUSTMENTS */

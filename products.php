@@ -47,7 +47,6 @@
         <a href="index#why">Why Us</a>
         <a href="https://www.skywavetech.cloud/blog/our-blog-1">Resources</a>
         <a href="fishafrica">Fish Africa</a>
-        <a href="https://www.skywavetech.cloud/" class="contact-btn">Contact</a>
       </nav>
       <button class="hamburger" id="menuBtn">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -136,7 +135,7 @@
           <a href="fishafrica">Fish Africa</a>
         </div>
         <div class="footer-right">
-          <div>Contact Us</div>
+          <a href="index#contact">Contact Us</a>
           <div>Privacy Policy</div>
         </div>
       </div>
